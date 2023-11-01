@@ -1,13 +1,17 @@
 section {
     border: 2px solid black;
     background-color: blue;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
+    height: 75px;
 }
 button {
     background-color: blue;
     color: white;
-    border: 0;
+    border: 1px solid black;
+    align-items: flex-start;
+    display: flex;
+    width: 90px;
 }
 button:hover {
     background-color: white;
